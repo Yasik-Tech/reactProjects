@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #555;
+}
+
+.calendar {
+  width: 450px;
+  background-color: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px;
+
+}
+
+button {
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #2980b9;
+  cursor: pointer;
+}
+
+select {
+  font-size: 18px;
+  padding: 0px 8px;
+  border: 1px soild #3498db;
+  border-radius: 4px;
+  margin: 0 10px;
+}
+
+.daysOfWeek {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.days{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+
+.day,
+.empty{
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.empty{
+  background-color: #f9f9f9;
+}
+
+.day:hover{
+  background-color: #3498db;
+  color: #fff;
+}
+
+.day.current{
+  background-color: aqua;
+  color: #fff;
+}
