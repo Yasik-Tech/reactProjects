@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: #2f3542;
+}
+
+h2{
+    color: #fff;
+}
+.faq-accordian{
+    max-width: 800px;
+     margin: 0 auto;        /*Show the contents in centre */
+}
+.faq-items{
+    margin-bottom: 20px;
+    border: 1px solid #4b6584;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.faq-header{
+    background-color: #778ca3;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.faq-header:hover{
+    background-color: #4b6584;
+}
+.faq-body{
+    background-color: #fff;                    /* This style is used to hide the answer inside the questions */
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.faq-body-content{
+    padding: 15px;
+    color: #555;
+}
+
+.faq-items.active .faq-body{
+    max-height: 300px;
+}
