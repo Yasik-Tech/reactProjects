@@ -1,0 +1,183 @@
+[
+    {
+      "id": 1,
+      "name": "Pizza Supreme",
+      "shop": "Domino's",
+      "ftype": "Food",
+      "pic": "https://via.placeholder.com/100?text=Pizza+Supreme",
+      "latest": true,
+      "amt": "399"
+    },
+    {
+      "id": 2,
+      "name": "Burger Deluxe",
+      "shop": "Burger King",
+      "ftype": "Food",
+      "pic": "https://via.placeholder.com/100?text=Burger+Deluxe",
+      "latest": false,
+      "amt": "199"
+    },
+    {
+      "id": 3,
+      "name": "Cheese Pasta",
+      "shop": "Pizza Hut",
+      "ftype": "Food",
+      "pic": "https://via.placeholder.com/100?text=Cheese+Pasta",
+      "latest": true,
+      "amt": "249"
+    },
+    {
+      "id": 4,
+      "name": "Chicken Tandoori",
+      "shop": "KFC",
+      "ftype": "Food",
+      "pic": "https://via.placeholder.com/100?text=Chicken+Tandoori",
+      "latest": true,
+      "amt": "349"
+    },
+    {
+      "id": 5,
+      "name": "Paneer Wrap",
+      "shop": "Subway",
+      "ftype": "Food",
+      "pic": "https://via.placeholder.com/100?text=Paneer+Wrap",
+      "latest": false,
+      "amt": "179"
+    },
+    {
+      "id": 6,
+      "name": "Cold Coffee",
+      "shop": "Cafe Coffee Day",
+      "ftype": "Drink",
+      "pic": "https://via.placeholder.com/100?text=Cold+Coffee",
+      "latest": false,
+      "amt": "99"
+    },
+    {
+      "id": 7,
+      "name": "Chocolate Cake",
+      "shop": "The Cake Shop",
+      "ftype": "Dessert",
+      "pic": "https://via.placeholder.com/100?text=Chocolate+Cake",
+      "latest": true,
+      "amt": "299"
+    },
+    {
+      "id": 8,
+      "name": "Vegetable Salad",
+      "shop": "Fresh & Healthy",
+      "ftype": "Food",
+      "pic": "https://via.placeholder.com/100?text=Vegetable+Salad",
+      "latest": false,
+      "amt": "149"
+    },
+    {
+      "id": 9,
+      "name": "Mango Smoothie",
+      "shop": "Juice World",
+      "ftype": "Drink",
+      "pic": "https://via.placeholder.com/100?text=Mango+Smoothie",
+      "latest": true,
+      "amt": "129"
+    },
+    {
+      "id": 10,
+      "name": "Chicken Nuggets",
+      "shop": "McDonald's",
+      "ftype": "Food",
+      "pic": "https://via.placeholder.com/100?text=Chicken+Nuggets",
+      "latest": true,
+      "amt": "249"
+    },
+    {
+      "id": 11,
+      "name": "Ice Cream Sundae",
+      "shop": "Baskin Robbins",
+      "ftype": "Dessert",
+      "pic": "https://via.placeholder.com/100?text=Ice+Cream+Sundae",
+      "latest": false,
+      "amt": "159"
+    },
+    {
+      "id": 12,
+      "name": "Masala Dosa",
+      "shop": "Udupi Corner",
+      "ftype": "Food",
+      "pic": "https://via.placeholder.com/100?text=Masala+Dosa",
+      "latest": true,
+      "amt": "99"
+    },
+    {
+      "id": 13,
+      "name": "Pepsi",
+      "shop": "PepsiCo",
+      "ftype": "Drink",
+      "pic": "https://via.placeholder.com/100?text=Pepsi",
+      "latest": false,
+      "amt": "50"
+    },
+    {
+      "id": 14,
+      "name": "Grilled Sandwich",
+      "shop": "Street Food",
+      "ftype": "Food",
+      "pic": "https://via.placeholder.com/100?text=Grilled+Sandwich",
+      "latest": true,
+      "amt": "89"
+    },
+    {
+      "id": 15,
+      "name": "French Fries",
+      "shop": "McDonald's",
+      "ftype": "Food",
+      "pic": "https://via.placeholder.com/100?text=French+Fries",
+      "latest": false,
+      "amt": "119"
+    },
+    {
+      "id": 16,
+      "name": "Pav Bhaji",
+      "shop": "Mumbai Street",
+      "ftype": "Food",
+      "pic": "https://via.placeholder.com/100?text=Pav+Bhaji",
+      "latest": true,
+      "amt": "149"
+    },
+    {
+      "id": 17,
+      "name": "Hot Chocolate",
+      "shop": "Cafe Coffee Day",
+      "ftype": "Drink",
+      "pic": "https://via.placeholder.com/100?text=Hot+Chocolate",
+      "latest": true,
+      "amt": "199"
+    },
+    {
+      "id": 18,
+      "name": "Falafel Wrap",
+      "shop": "Subway",
+      "ftype": "Food",
+      "pic": "https://via.placeholder.com/100?text=Falafel+Wrap",
+      "latest": false,
+      "amt": "179"
+    },
+    {
+      "id": 19,
+      "name": "Strawberry Milkshake",
+      "shop": "Keventers",
+      "ftype": "Drink",
+      "pic": "https://via.placeholder.com/100?text=Strawberry+Milkshake",
+      "latest": true,
+      "amt": "149"
+    },
+    {
+      "id": 20,
+      "name": "Garlic Bread",
+      "shop": "Domino's",
+      "ftype": "Food",
+      "pic": "https://via.placeholder.com/100?text=Garlic+Bread",
+      "latest": false,
+      "amt": "89"
+    }
+  ]
+  
