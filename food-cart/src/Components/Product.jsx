@@ -1,7 +1,12 @@
 import React from 'react'
 import '../Components/Product.css'
+import { Cartcontext } from './cart-context';
+import { useContext } from 'react';
 
-export const Product = ({ product, cart=[], setCart }) => {
+
+export const Product = ({ product }) => {
+
+    const { cart, setCart } = useContext(Cartcontext);
 
     const name = product.name.length > 16 ? product.name.substring(0, 15) + "..." : product.name;
 
@@ -21,7 +26,7 @@ export const Product = ({ product, cart=[], setCart }) => {
             <div className="details">
                 <h3>{name}</h3>
                 <p>Price RS: {product.amt}</p>
-                { cart.includes(product) ? (
+                {cart.includes(product) ? (
                     <button className='removebtn' onClick={removeCart}>Remove Cart</button>
                 ) : (
                     <button onClick={addCart}>Add Cart</button>

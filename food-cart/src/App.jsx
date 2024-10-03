@@ -3,8 +3,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import { Header } from './Components/Header'
 import { Home } from './Components/Home'
-import { Cart } from './Components/Cart'
-import { useState } from 'react'
+import { Viewcart } from './Components/Viewcart'
+import { useState,  } from 'react'
+import { Cartcontext } from './Components/cart-context'
 
 function App() {
 
@@ -12,15 +13,17 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-        < Header cart={cart}/>
-        <div className="container">
-          <Routes>
-            <Route path='/' element={<Home cart={cart} setCart={setCart}/>} />
-            <Route path='/cart' element={<Cart cart={cart} setCart={setCart}/>} />
-          </Routes>
-        </div>
-      </BrowserRouter>
+      <Cartcontext.Provider value={{cart, setCart}}>
+        <BrowserRouter>
+          < Header cart={cart} />
+          <div className="container">
+            <Routes>
+              <Route path='/' element={<Home />} />
+              <Route path='/cart' element={<Viewcart />} />
+            </Routes>
+          </div>
+        </BrowserRouter>
+      </Cartcontext.Provider>
 
     </>
   )
